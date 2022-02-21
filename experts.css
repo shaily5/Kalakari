@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.page-breadcrumb {
+    padding: 150px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 0;
+    position: relative;
+}
+.all-page-title .container{
+	position: relative;
+	z-index: 2;
+  
+}
+.all-page-title::before{
+	background: #010101;
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	z-index: 1;
+	opacity: 0.8;	
+}
+.card{
+    display: flex;
+    justify-content: center;
+    margin: 50px 100px 100px 50px;
+}
+.card img{
+    border-radius: 0cm;
+    max-height: auto;
+    width: auto;
+    justify-content: center;
+    display: flex;
+    float: right;
+}
+.card .btn{
+    color: black;
+    border: none;
+    background: none;
+    transition: all 1s ease-out;
+}
+.card .btn:hover{
+    background: #ef664d;
+    
+}
+.footer span{
+    color: black;
+}
+.footer{
+    overflow: hidden;
+    letter-spacing: 1px;
+}
+.footer footer{
+    background: black;
+}
+
+.footer footer a{
+    text-decoration: none;
+    color:silver;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.footer footer{
+    padding: 20px;
+}
+.footer footer a:hover{
+    color: white;
+}
+.responsive-map-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    margin-right: 25px;
+    overflow: hidden;
+}
+
+.responsive-map-container iframe,   
+.responsive-map-container object,  
+.responsive-map-container embed {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 80%;
+    height: 80%;
+}
+.single-gallery-image{margin-top:30px;background-repeat:no-repeat !important;background-position:center center !important;background-size:cover !important;height:200px}
